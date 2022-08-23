@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<utpsdoc>
+	<!--当电话号码长度小于MinMatchLen时，长度也必须一样才比较。默认为5，最小为1，最大为8-->
+	<MinMatchLen>5</MinMatchLen>
+	
+	
+	<!--当比较的两个号码长度都大于MaxMatchLen时，则按长度MaxMatchLen来比较，默认为12，最小为3，最大为24-->
+	<MaxMatchLen>8</MaxMatchLen>
+</utpsdoc>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<utpsdoc>
+	<menu name="callrecord" parent="null">
+    		<item type="POPUP" resource="IDS_CDMENU_CALL" id="6001"></item>
+		<item type="POPUP" resource="IDS_CDMENU_Video_CALL" id="6002"></item>
+    		<item type="POPUP" resource="IDS_SEND_MSG" id="6003"></item>
+    		<item type="POPUP" resource="IDS_CDMENU_SAVENUMBER" id="6004"></item>
+    		<item type="POPUP" resource="IDS_SEPARATOR" id="-1"></item>
+    		<item type="POPUP" resource="IDS_CDMENU_DELETE" id="6005"></item>
+                <item type="POPUP" resource="IDS_CDMENU_CLEAR" id="6006"></item>
+	</menu>	
+     	<ToolBar name="callrecord" count="6">
+		<item resource="IDS_CDBTN_MAKECALL" enabled="tab_callhistory_call.png" disabled="tab_callhistory_call_gray.png" pluginname="CallUIPlugin" id="6110"/>
+		<item resource="IDS_CDBTN_VIDEO_MAKECALL" enabled="tab_callhistory_videocall.png" disabled="tab_callhistory_videocall_gray.png" pluginname="VideoCallUIPlugin" id="6111"/>
+		<item resource="IDS_TB_SENDMSG" enabled="tab_callhistory_send_message.png" disabled="tab_callhistory_send_message_gray.png" pluginname="SMSUIPlugin" id="6112"/>
+		<item resource="IDS_CDBTN_SAVENUMBER" enabled="tab_callhistory_save.png" disabled="tab_callhistory_save_gray.png" pluginname="AddrBookUIPlugin" id="6113"/>
+		<item resource="IDS_CDBTN_DELETERECORD" enabled="tab_callhistory_delete.png" disabled="tab_callhistory_delete_gray.png" pluginname="" id="6114"/>
+		<item resource="IDS_CDBTN_CLEARRECORD" enabled="tab_callhistory_clear.png" disabled="tab_callhistory_clear_gray.png" pluginname="" id="6115"/>
+	</ToolBar>
+</utpsdoc>

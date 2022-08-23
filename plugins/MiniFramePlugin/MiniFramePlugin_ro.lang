@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<utpsdoc type="resource">
+<module name="MiniFramePlugin">
+<item name="IDS_LANGUAGE_NAME">Romana</item>
+<item name="IDS_FRAME_TITLE">Mobile Partner</item>
+<item name="IDS_HELP">Ajutor</item>
+<item name="IDS_XFRAME_OPER">Operaţie</item>
+<item name="IDS_MAINFRM_RF_ENABLE">Activare Radio</item>
+<item name="IDS_MAINFRM_RF_DISABLE">Dezactivare Radio</item>
+<item name="IDS_XFRAME_OPTION">Setari</item>
+<item name="IDS_MAINFRM_LANG_PROMPT">Limba</item>
+<item name="IDS_MAINFRM_MENU_PIN">Functii PIN</item>
+<item name="IDS_XFRAME_DEVMGR">Alegeti dispozitivul</item>
+<item name="IDS_MAINFRM_DIAGNOSTICS_WINDOWSTXT">Diagnosticare</item>
+<item name="IDS_MAINFRM_PIN_VERIFY_WINDOWSTXT">Introduceti PIN</item>
+<item name="IDS_MAINFRM_PIN_UNLOCK_WINDOWSTXT">Deblocati PIN</item>
+<item name="IDS_MAINFRM_MENU_CHANGEPIN">Modificati PIN</item>
+<item name="IDS_MAINFRM_MENU_ENABLEPIN">Activare Verificare PIN</item>
+<item name="IDS_MAINFRM_MENU_DISABLEPIN">Dezactivare Verificare PIN</item>
+<item name="IDS_MAINFRM_MENU_MAINFR_HELP">Ajutor Online...\tF1</item>
+<item name="IDS_MAINFRM_MENU_MAINFR_ABOUT">Despre</item>
+<item name="IDS_SETTINGS">Setari</item>
+<item name="IDS_DIALUPUI_CONNECT">Conectare</item>
+<item name="IDS_DIALUPUI_CANCEL">Anulare</item>
+<item name="IDS_DIALUPUI_DISCONNECT">Deconectare</item>
+<item name="IDS_CALL_MENU">Apelare</item>
+<item name="IDS_DISPLAY">Afisare</item>
+<item name="IDS_CALL_ANSWER">Răspunde la apel</item>
+<item name="IDS_CALL_HANGUP">Terminare apel</item>
+<item name="IDS_EXIT">Iesire</item>
+<item name="IDS_MINI_CONNECTING">Conectare...</item>
+<item name="IDS_MINI_CANCELING">Se anulează...</item>
+<item name="IDS_MINI_DISCONNECTING">Se deconectează...</item>
+<item name="IDS_MINI_TOOLTIP_SETTINGS">Setari</item>
+<item name="IDS_MINI_TOOLTIP_WEBKIT">Kit Web</item>
+<item name="IDS_SIGNAL_STRENGTH">Puterea semnalului %d%%</item>
+<item name="IDS_NO_DEVICE">Dispozitivul nu a fost găsit</item>
+<item name="IDS_NO_SIM">Cartela SIM nu a fost găsită</item>
+<item name="IDS_PIN_BLOCKED">Codul PUK este blocat</item>
+<item name="IDS_PIN_NOT_INITIALISED">Codul PIN este blocat</item>
+<item name="IDS_MINI_UNSOLVED_MSG_PROMPT">Aveţi %d mesaj(e) necitite.</item>
+<item name="IDS_MINI_UNSOLVED_CALL_PROMPT">Aveţi %d apel(uri) pierdute.</item>
+<item name="IDS_MINI_WIFI_SEARCHING">Se caută reţeaua Wi-Fi...</item>
+<item name="IDS_MINI_WIFI_NO_NETWORK">Nu este disponibilă nicio reţea pentru conectare automată.</item>
+</module>
+</utpsdoc>

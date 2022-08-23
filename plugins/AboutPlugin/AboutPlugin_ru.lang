@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<utpsdoc type="resource">
+<module name="AboutPlugin">
+<item name="IDS_TITLE_NAME">О программе Unite 3G Internet</item>
+<item name="IDS_NAME">Модуль</item>
+<item name="IDS_VERSION">Версия</item>
+<item name="IDS_SOFTWARE_NAME">Unite 3G Internet</item>
+<item name="IDS_OK">ОК</item>
+<item name="IDS_MAINFRM_COPYRIGHT_PROMPT">Copyright(C)2004-2013 HUAWEI Technologies Co., Ltd.</item>
+<item name="IDS_MAINFRM_WARMING_PROMPT">Предупреждение: Данная программа защищена международными законами об авторском праве. Ни одна из частей данного программного обеспечения не может быть воспроизведена или передана в любой форме и любыми средствами без предварительного письменного согласия HUAWEI Technologies Co., Ltd.</item>
+</module>
+</utpsdoc>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<utpsdoc type="resource">
+<module name="CBSSettingPlugin">
+<item name="IDS_PLUGIN_NAME">CBS</item>
+<item name="IDS_PLUGIN_MENUITEM">Difuzare în celulă</item>
+<item name="IDS_SETTING_NAME">Difuzare în celulă</item>
+<item name="IDS_DATE_FORMAT">%d/%m/%Y</item>
+<item name="IDS_TIME_FORMAT">%H:%M:%S</item>
+<item name="IDS_GBX_CBS">Difuzare în celulă</item>
+<item name="IDS_CBX_CBS_OPEN">Deschidere</item>
+<item name="IDS_CBX_CBS_CLOSE">Închidere</item>
+<item name="IDS_GBX_CBCH">Canal difuzare în celulă</item>
+<item name="IDS_LST_SELECT_CHANNEL">Alegeţi canalul</item>
+<item name="IDS_STA_ADD_CBCH">Adăugare canal:</item>
+<item name="IDS_BTN_ADD_CHANNEL">Adăugare</item>
+<item name="IDS_BTN_REMOVE_CHANNEL">Eliminare</item>
+<item name="IDS_GBX_AUTO_CLEANUP">Curăţare automată</item>
+<item name="IDS_CBX_NONE">Niciuna</item>
+<item name="IDS_CBX_DAYS">Mesaje înainte de %d zile</item>
+<item name="IDS_BUTTON_APPLY">Aplicare</item>
+<item name="IDS_STR_PROMPT">Mesaj</item>
+<item name="IDS_STR_CHANNEL_EXIST">Canalul există deja.</item>
+<item name="IDS_STR_CHANNEL_OVERFLOW">Valoarea introdusă nu este în intervalul valid 0-65535.</item>
+<item name="IDS_STR_CHANNEL_FULL">Nu se mai pot adăuga canale.</item>
+<item name="IDS_STR_OPEN_SERVICE_FAILURE">Nu s-a putut deschide serviciul de difuzare în celulă.</item>
+<item name="IDS_STR_CLOSE_SERVICE_FAILURE">Nu s-a putut închide serviciul de difuzare în celulă.</item>
+<item name="IDS_STR_ADD_CHANNEL_FAILURE">Nu s-a putut adăuga canalul de difuzare în celulă.</item>
+<item name="IDS_STR_REMOVE_CHANNEL_FAILURE">Nu s-a putut elimina canalul de difuzare în celulă.</item>
+</module>
+</utpsdoc>

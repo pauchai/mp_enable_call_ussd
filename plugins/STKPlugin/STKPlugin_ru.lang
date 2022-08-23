@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<utpsdoc type="resource">
+<module name="STKPlugin">
+<item name="IDS_STK_TITLE">Sim Инструментарий</item>
+<item name="IDS_STK_BTN_BACK">&lt; Назад</item>
+<item name="IDS_STK_BTN_SELECT">Выбрать</item>
+<item name="IDS_STK_BTN_CLOSE">Закрыть</item>
+<item name="IDS_STK_BTN_OK">ОК</item>
+<item name="IDS_STK_BTN_CANCEL">Отмена</item>
+<item name="IDS_STK_MSG_PROMPT">Подсказка</item>
+<item name="IDS_STK_MSG_INPUTFAILED">Ошибка при вводе.</item>
+</module>
+</utpsdoc>

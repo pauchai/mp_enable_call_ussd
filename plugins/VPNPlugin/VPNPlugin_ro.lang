@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<utpsdoc type="resource">
+<module name="VPNPlugin">
+<item name="IDS_SETTING_NAME">VPN</item>
+<item name="IDS_RADIO_NONE">Nu se utilizează VPN</item>
+<item name="IDS_RADIO_EXIST">Utilizare VPN existent</item>
+<item name="IDS_RADIO_OTHER">Utilizare alt VPN</item>
+<item name="IDS_STC_CLIENT">Client:</item>
+<item name="IDS_STC_PROFILE">Profil:</item>
+<item name="IDS_STC_COMMAND">Linie de comandă:</item>
+<item name="IDS_STC_PARAM">Parametru:</item>
+<item name="IDS_BTN_BROWSE">Răsfoire…</item>
+<item name="IDS_CHECK_CONNECT">Formare înainte de setare VPN:</item>
+<item name="IDS_GRPBOX_OPTION">Setari VPN</item>
+<item name="IDS_OPEN_PRL_FILE">Deschidere fişier</item>
+</module>
+</utpsdoc>

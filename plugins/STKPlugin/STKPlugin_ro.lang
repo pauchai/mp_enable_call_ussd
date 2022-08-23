@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<utpsdoc type="resource">
+<module name="STKPlugin">
+<item name="IDS_STK_TITLE">SIM Toolkit</item>
+<item name="IDS_STK_BTN_BACK">&lt; Înapoi</item>
+<item name="IDS_STK_BTN_SELECT">Selectare</item>
+<item name="IDS_STK_BTN_CLOSE">Închidere</item>
+<item name="IDS_STK_BTN_OK">OK</item>
+<item name="IDS_STK_BTN_CANCEL">Anulare</item>
+<item name="IDS_STK_MSG_PROMPT">Mesaj</item>
+<item name="IDS_STK_MSG_INPUTFAILED">Introducerea nu a reuşit.</item>
+</module>
+</utpsdoc>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<utpsdoc type="resource">
+<module name="QuickLinkUIPlugin">
+<item name="IDS_LINK_TYPE_APPLICATION">Приложение</item>
+<item name="IDS_LINK_TYPE_E-MAIL">Почтовый клиент</item>
+<item name="IDS_LINK_TYPE_INTERNET">Браузер</item>
+<item name="IDS_LINK_PROMPT">Подсказка</item>
+<item name="IDS_SETTING_NAME">Quick Link</item>
+<item name="IDS_LINK_SETTING_ORDER">Порядок запуска</item>
+<item name="IDS_LINK_SETTING_NEW">Новый</item>
+<item name="IDS_LINK_SETTING_EDIT">Редактировать</item>
+<item name="IDS_LINK_SETTING_DEL">Удалить</item>
+<item name="IDS_LINK_SETTING_UP">Вверх</item>
+<item name="IDS_LINK_SETTING_DOWN">Вниз</item>
+<item name="IDS_LINK_SETTING_TAB">Quick Link</item>
+<item name="IDS_LINK_SETTING_NAME">Имя</item>
+<item name="IDS_LINK_SETTING_TYPE">Тип</item>
+<item name="IDS_LINK_SETTING_NEW_NAME">Имя:</item>
+<item name="IDS_LINK_SETTING_NEW_TYPE">Тип:</item>
+<item name="IDS_LINK_SETTING_NEW_OK">ОК</item>
+<item name="IDS_LINK_SETTING_NEW_CANCEL">Отмена</item>
+<item name="IDS_LINK_SETTING_NEW_CHECK">Запускать автоматически при подключении</item>
+<item name="IDS_LINK_SETTING_NEW_CHECK_STARTUP">Запускать автоматически при запуске ПО</item>
+<item name="IDS_LINK_SETTING_NEW_TAB_IE">Браузер</item>
+<item name="IDS_LINK_SETTING_NEW_TAB_IE_URL">URL:</item>
+<item name="IDS_LINK_SETTING_NEW_TAB_APP">Приложение</item>
+<item name="IDS_LINK_SETTING_NEW_TAB_EMAIL">Почтовый клиент</item>
+<item name="IDS_LINK_SETTING_NEW_TAB_APP_URL">Путь к приложению</item>
+<item name="IDS_LINK_SETTING_NEW_TAB_EMAIL_URL">Почтовый клиент по умолчанию</item>
+<item name="IDS_LINK_SETTING_NEW_TAB_APP_PARA">Параметры приложения</item>
+<item name="IDS_LINK_SETTING_NEW_TAB_APP_BROWSER">Браузер...</item>
+<item name="IDS_LINK_SETTING_NEW_TITLE">Новая Quick Link</item>
+<item name="IDS_LINK_SETTING_EDIT_TITLE">Изменить Quick Link</item>
+<item name="IDS_LINK_SETTING_NOT_SELECT_ITEM">Не выбран ни один элемент</item>
+<item name="IDS_LINK_SETTING_NO_NAME">Поле Имя не может быть пустым.</item>
+<item name="IDS_LINK_SETTING_NO_TYPE">Поле Тип не может быть пустым</item>
+<item name="IDS_LINK_SETTING_NO_URL">Поле URL не может быть пустым</item>
+<item name="IDS_LINK_SETTING_FILENOTEXIST">Файл не существует или недействительного формата.</item>
+<item name="IDS_LINK_SETTING_INVALID_URL">Недействительный URL</item>
+<item name="IDS_LINK_SETTING_DELETE_CONFORM">Удалить?</item>
+<item name="IDS_LINK_SETTING_NAME_SAME">Имя уже существует, выберите другое</item>
+</module>
+</utpsdoc>

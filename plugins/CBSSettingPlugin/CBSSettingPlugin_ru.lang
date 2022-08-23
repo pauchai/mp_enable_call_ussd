@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<utpsdoc type="resource">
+<module name="CBSSettingPlugin">
+<item name="IDS_PLUGIN_NAME">CBS</item>
+<item name="IDS_PLUGIN_MENUITEM">Вещание в сотовой сети</item>
+<item name="IDS_SETTING_NAME">Вещание в сотовой сети</item>
+<item name="IDS_DATE_FORMAT">%d/%m/%Y</item>
+<item name="IDS_TIME_FORMAT">%H:%M:%S</item>
+<item name="IDS_GBX_CBS">Вещание в сотовой сети</item>
+<item name="IDS_CBX_CBS_OPEN">Открыть</item>
+<item name="IDS_CBX_CBS_CLOSE">Закрыть</item>
+<item name="IDS_GBX_CBCH">Канал вещания в сотовой сети</item>
+<item name="IDS_LST_SELECT_CHANNEL">Активные каналы</item>
+<item name="IDS_STA_ADD_CBCH">Добавить канал:</item>
+<item name="IDS_BTN_ADD_CHANNEL">Добавить</item>
+<item name="IDS_BTN_REMOVE_CHANNEL">Удалить</item>
+<item name="IDS_GBX_AUTO_CLEANUP">Автоочистка</item>
+<item name="IDS_CBX_NONE">Нет</item>
+<item name="IDS_CBX_DAYS">Сообщения ранее %d дней</item>
+<item name="IDS_BUTTON_APPLY">Применить</item>
+<item name="IDS_STR_PROMPT">Подсказка</item>
+<item name="IDS_STR_CHANNEL_EXIST">Канал уже существует.</item>
+<item name="IDS_STR_CHANNEL_OVERFLOW">Допустимый диапазон 0-65535.</item>
+<item name="IDS_STR_CHANNEL_FULL">Невозможно добавить более одного канала.</item>
+<item name="IDS_STR_OPEN_SERVICE_FAILURE">Не удалось открыть службу вещания в сотовой сети.</item>
+<item name="IDS_STR_CLOSE_SERVICE_FAILURE">Не удалось закрыть службу вещания в сотовой сети.</item>
+<item name="IDS_STR_ADD_CHANNEL_FAILURE">Не удалось добавить канал вещания в сотовой сети.</item>
+<item name="IDS_STR_REMOVE_CHANNEL_FAILURE">Не удалось удалить канал вещания в сотовой сети.</item>
+</module>
+</utpsdoc>

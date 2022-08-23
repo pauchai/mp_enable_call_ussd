@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<utpsdoc type="resource">
+<module name="QuickLinkUIPlugin">
+<item name="IDS_LINK_TYPE_APPLICATION">Aplicaţie</item>
+<item name="IDS_LINK_TYPE_E-MAIL">Client e-mail</item>
+<item name="IDS_LINK_TYPE_INTERNET">Browser Internet</item>
+<item name="IDS_LINK_PROMPT">Mesaj</item>
+<item name="IDS_SETTING_NAME">Link rapid</item>
+<item name="IDS_LINK_SETTING_ORDER">Lansare comandă</item>
+<item name="IDS_LINK_SETTING_NEW">Nouă</item>
+<item name="IDS_LINK_SETTING_EDIT">Editare</item>
+<item name="IDS_LINK_SETTING_DEL">Ştergere</item>
+<item name="IDS_LINK_SETTING_UP">Sus</item>
+<item name="IDS_LINK_SETTING_DOWN">Jos</item>
+<item name="IDS_LINK_SETTING_TAB">Link rapid</item>
+<item name="IDS_LINK_SETTING_NAME">Nume</item>
+<item name="IDS_LINK_SETTING_TYPE">Tip</item>
+<item name="IDS_LINK_SETTING_NEW_NAME">Nume:</item>
+<item name="IDS_LINK_SETTING_NEW_TYPE">Tip:</item>
+<item name="IDS_LINK_SETTING_NEW_OK">OK</item>
+<item name="IDS_LINK_SETTING_NEW_CANCEL">Anulare</item>
+<item name="IDS_LINK_SETTING_NEW_CHECK">Lansare automată la conectare</item>
+<item name="IDS_LINK_SETTING_NEW_CHECK_STARTUP">Lansare automată la lansarea aplicaţiei</item>
+<item name="IDS_LINK_SETTING_NEW_TAB_IE">Browser Internet</item>
+<item name="IDS_LINK_SETTING_NEW_TAB_IE_URL">URL:</item>
+<item name="IDS_LINK_SETTING_NEW_TAB_APP">Aplicaţie</item>
+<item name="IDS_LINK_SETTING_NEW_TAB_EMAIL">Client e-mail</item>
+<item name="IDS_LINK_SETTING_NEW_TAB_APP_URL">Cale aplicaţie</item>
+<item name="IDS_LINK_SETTING_NEW_TAB_EMAIL_URL">Client e-mail implicit</item>
+<item name="IDS_LINK_SETTING_NEW_TAB_APP_PARA">Parametri aplicaţie</item>
+<item name="IDS_LINK_SETTING_NEW_TAB_APP_BROWSER">Browser...</item>
+<item name="IDS_LINK_SETTING_NEW_TITLE">Link rapid nou</item>
+<item name="IDS_LINK_SETTING_EDIT_TITLE">Editare link rapid</item>
+<item name="IDS_LINK_SETTING_NOT_SELECT_ITEM">Nu aţi selectat un element</item>
+<item name="IDS_LINK_SETTING_NO_NAME">Numele nu poate fi gol.</item>
+<item name="IDS_LINK_SETTING_NO_TYPE">Tipul nu poate fi gol</item>
+<item name="IDS_LINK_SETTING_NO_URL">Adresa URL nu poate fi goală</item>
+<item name="IDS_LINK_SETTING_FILENOTEXIST">Fişierul nu există sau are formatul incorect.</item>
+<item name="IDS_LINK_SETTING_INVALID_URL">Adresa URL nu este validă</item>
+<item name="IDS_LINK_SETTING_DELETE_CONFORM">Sigur doriţi să ştergeţi?</item>
+<item name="IDS_LINK_SETTING_NAME_SAME">Numele există deja. Modificaţi-l</item>
+</module>
+</utpsdoc>

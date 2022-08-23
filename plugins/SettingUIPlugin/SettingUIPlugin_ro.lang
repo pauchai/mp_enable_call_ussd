@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<utpsdoc type="resource">
+<module name="SettingUIPlugin">
+<item name="IDS_BUTTON_OK">OK</item>
+<item name="IDS_BUTTON_CANCEL">Anulare</item>
+<item name="IDS_DIALOG_TITLE">Optiuni</item>
+<item name="IDS_CRIT_CAPTION">Eroare Permanenta</item>
+<item name="IDS_WARN_CAPTION">Avertizare</item>
+<item name="IDS_ERROR_CAPTION">Eroare</item>
+<item name="IDS_PROMPT_CAPTION">Notificare</item>
+<item name="IDS_OPERATION_PROCESS">Operatiunea este in desfasurare, va rugam asteptati...</item>
+<item name="IDS_OPERATION_PROCESS">Se procesează. Aşteptaţi...</item>
+<item name="IDS_SETTING_NAME">General</item>
+<item name="IDS_SETTING_CHECK_STARTUP_AUTO">Lansare la pornire SO</item>
+ <item name="IDS_SETTING_CHECK_DEV_AVAILABLE">Lansare când dispozitivul devine disponibil</item>
+<item name="IDS_SETTING_CHECK_STARTUP_MIN">Minimizare fereastră la pornire</item>
+<item name="IDS_SETTING_STATIC_GROUP_STARTUP">Pornire</item>
+<item name="IDS_CONNECT_TYPE_GROUP">Tip conexiune</item>
+<item name="IDS_CONNECT_TYPE_CHECK_RSA">RAS(modem)</item>
+<item name="IDS_CONNECT_TYPE_CHECK_NDIS">NDIS</item>
+<item name="IDS_ANTIVIRUS_RUN_GROUP">Lansare automată</item>
+<item name="IDS_CHECK_TREND">Trend Micro USB Security</item>
+<item name="IDS_SETTING_CHECK_SHOWHOMEPAGE">Afişare pagină de pornire</item>
+</module>
+</utpsdoc>

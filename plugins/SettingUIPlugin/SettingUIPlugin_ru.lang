@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<utpsdoc type="resource">
+<module name="SettingUIPlugin">
+<item name="IDS_BUTTON_OK">OK</item>
+<item name="IDS_BUTTON_CANCEL">Отмена</item>
+<item name="IDS_DIALOG_TITLE">Опции</item>
+<item name="IDS_CRIT_CAPTION">Критическая ошибка</item>
+<item name="IDS_WARN_CAPTION">Предупреждение</item>
+<item name="IDS_ERROR_CAPTION">Ошибка</item>
+<item name="IDS_PROMPT_CAPTION">Подсказка</item>
+<item name="IDS_OPERATION_PROCESS">Операция выполняется, подождите...</item>
+<item name="IDS_SETTING_NAME">Общие</item>
+<item name="IDS_SETTING_CHECK_STARTUP_AUTO">запуск одновременно с OS</item>
+ <item name="IDS_SETTING_CHECK_DEV_AVAILABLE">Запускать, если устройство доступно</item>
+<item name="IDS_SETTING_CHECK_STARTUP_MIN">Сжать окно при запуске</item>
+<item name="IDS_SETTING_STATIC_GROUP_STARTUP">Запуск</item>
+<item name="IDS_CONNECT_TYPE_GROUP">Тип соединения</item>
+<item name="IDS_CONNECT_TYPE_CHECK_RSA">RAS(модем)</item>
+<item name="IDS_CONNECT_TYPE_CHECK_NDIS">NDIS</item>
+<item name="IDS_ANTIVIRUS_RUN_GROUP">Автозапуск</item>
+<item name="IDS_CHECK_TREND">Безопасность разъема micro-USB</item>
+<item name="IDS_SETTING_CHECK_SHOWHOMEPAGE">Показать домашнюю страницу</item>
+</module>
+</utpsdoc>

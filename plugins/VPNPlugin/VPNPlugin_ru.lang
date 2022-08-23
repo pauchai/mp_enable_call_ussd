@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<utpsdoc type="resource">
+<module name="VPNPlugin">
+<item name="IDS_SETTING_NAME">VPN</item>
+<item name="IDS_RADIO_NONE">Не использовать VPN</item>
+<item name="IDS_RADIO_EXIST">Использовать имеющийся клиент VPN</item>
+<item name="IDS_RADIO_OTHER">Использовать другой клиент VPN</item>
+<item name="IDS_STC_CLIENT">Клиент:</item>
+<item name="IDS_STC_PROFILE">Профиль:</item>
+<item name="IDS_STC_COMMAND">Командная строка:</item>
+<item name="IDS_STC_PARAM">Параметр:</item>
+<item name="IDS_BTN_BROWSE">Просмотр...</item>
+<item name="IDS_CHECK_CONNECT">Коммутируемое соединение перед настройкой VPN:</item>
+<item name="IDS_GRPBOX_OPTION">Настройки VPN</item>
+<item name="IDS_OPEN_PRL_FILE">Открыть файл</item>
+</module>
+</utpsdoc>

@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="utf-8"?>
+<utpsdoc type="config">
+    <group name="common">
+        <module name="common">
+            <ProfileTemplate>
+                <!--Profile main field：name: Profile name;
+                    type: network type
+                    user: user name
+                    password:  user password
+                    phonenumber: diagup number
+                    autoapn: auto get apn
+                    apn:apn value
+                    chap: Whether to support the way CHAP password authentication protocol
+                    pap:  Whether to support the way pap password authentication protocol
+                    ip:   Will be linked to IP address
+                    dns:  Will be linked to dns address
+                    dns:  The second DNS
+                    wins: wILL BE linked to wins
+                    winsalt: The second winsalt
+                    popusername: The need for the user's password dialog box pop-up
+                    remember:Whether or not to remember the user's password
+                -->
+                <item name="name"         value="IDS_NEWPROFILE" type="DialUp"/>
+                <item name="type"         value="3G/GPRS"  type="DialUp"/>
+                <item name="readonly"     value="false"    type="DialUp"/>
+                <item name="user"         value=""         type="DialUp"/>
+                <item name="password"     value=""         type="DialUp"/>
+                <item name="phonenumber"  value="*99#"     type="DialUp"/>
+                <item name="autoapn"      value="false"    type="DialUp"/>
+                <item name="apn"          value=""         type="DialUp"/>
+                <item name="chap"         value="true"     type="DialUp"/>
+                <item name="pap"          value="false"    type="DialUp"/>
+                <item name="ip"           value=""         type="DialUp"/>
+                <item name="dns"          value=""         type="DialUp"/>
+                <item name="dnsalt"       value=""         type="DialUp"/>
+                <item name="wins"         value=""         type="DialUp"/>
+                <item name="winsalt"      value=""         type="DialUp"/>
+                <item name="popusername"  value="false"    type="DialUp"/>
+                <item name="Remember"     value="false"    type="DialUp"/>
+            </ProfileTemplate>
+            <ProfileList>
+            </ProfileList>
+            <Function>
+                <item name="WLAN"                 value="false"/>
+                <!--APN option whether to display-->
+                <item name="APN"                  value="true"/>
+                <!--Does it show that the import and export button-->
+                <item name="IMPORT"               value="false"/>
+                <!--Whether or not to load all of the profile lib-->
+                <item name="ALLLIB"               value="true"/>
+                <!--The need for roaming-->
+                <item name="IMSIROAM"             value="false"/>
+                <!--The need for access in accordance with the corresponding IMSI list APN-->
+                <item name="IMSIAPN"              value="false"/>
+                <!--The need encrypt user passwords-->
+                <item name="ENCRYPT"              value="false"/>
+                <item name="Auto Get Profile"     value="false"/>
+                <!-- add for Wifi d00135750 from utps1.0-->
+                <item name="3g_signal_limit"      value="20"/>
+                <item name="wifi_signal_limit"    value="40"/>
+                <item name="upload_speed_limit"   value="10"/>
+                <item name="download_speed_limit" value="20"/>
+                <item name="kilo_unit"            value="1000"/>
+                <item name="time_interval_limit"  value="200"/>
+                <item name="get_speed_times"      value="5"/>
+            </Function>
+        </module>
+        <!--Links if the current data card is cdma type,then the item using the following template to replace the corresponding field-->
+        <module name="CDMA">
+            <ProfileTemplate>
+                <item name="phonenumber" value="#777" type="DialUp"/>
+            </ProfileTemplate>
+            <ProfileList>
+            </ProfileList>
+            <Function>
+                <item name="APN" value="false"/>
+            </Function>
+        </module>
+    </group>
+    <group name="customize">
+        <!--Customized version of operator,huawei e270 data card to mtn_c67-->
+        <!--
+        <module name="MTN_C67" device="E270">
+            <ProfileList>
+                <item name="MTN Data" value="default" type="DialUp"/>
+            </ProfileList>
+            <Function>
+                <item name="ALLLIB" value="true"/>
+                <item name="IMSIROAM" value="false"/>
+            </Function>
+        </module>
+        <Ibid>
+        <module name="T-Mobile_C125" device="E220">
+            <ProfileList>
+                <item name="T-Mobile CZ" value="default" type="DialUp"/>
+            </ProfileList>
+            <Function>
+                <item name="ALLLIB" value="true"/>
+                <item name="IMSIROAM" value="true"/>
+            </Function>
+        </module>
+        <module name="T-Mobile_C108" device="E220">
+            <ProfileList>
+                <item name="T-Mobile D" value="default" type="DialUp"/>
+            </ProfileList>
+            <Function>
+                <item name="ALLLIB" value="true"/>
+                <item name="IMSIROAM" value="true"/>
+            </Function>
+        </module>
+        <module name="T-Mobile_C126" device="E220">
+            <ProfileList>
+                <item name="T-Mobile HR" value="default" type="DialUp"/>
+            </ProfileList>
+            <Function>
+                <item name="ALLLIB" value="true"/>
+                <item name="IMSIROAM" value="true"/>
+            </Function>
+        </module>
+        <module name="T-Mobile_C121" device="E220">
+            <ProfileList>
+                <item name="T-Mobile NL" value="default" type="DialUp"/>
+            </ProfileList>
+            <Function>
+                <item name="ALLLIB" value="true"/>
+                <item name="IMSIROAM" value="true"/>
+            </Function>
+        </module>
+        <module name="T-Mobile_C105" device="E220">
+            <ProfileList>
+                <item name="T-Mobile" value="default" type="DialUp"/>
+            </ProfileList>
+            <Function>
+                <item name="ALLLIB" value="true"/>
+                <item name="IMSIROAM" value="true"/>
+            </Function>
+        </module>
+        <module name="T-Mobile_C111" device="E220">
+            <ProfileList>
+                <item name="T-Mobile SK" value="default" type="DialUp"/>
+            </ProfileList>
+            <Function>
+                <item name="ALLLIB" value="true"/>
+                <item name="IMSIROAM" value="true"/>
+            </Function>
+        </module>
+        <module name="T-Mobile_C54" device="E220">
+            <ProfileList>
+                <item name="Austria T-Mobile" value="default" type="DialUp"/>
+            </ProfileList>
+            <Function>
+                <item name="ALLLIB" value="true"/>
+                <item name="IMSIROAM" value="true"/>
+            </Function>
+        </module>
+        <module name="T-Mobile_C55_UK" device="E220">
+            <ProfileList>
+                <item name="T-Mobile UK" value="default" type="DialUp"/>
+                <item name="T-Mobile D" value="" type="DialUp"/>
+                <item name="T-Mobile A" value="" type="DialUp"/>
+                <item name="T-Mobile CZ" value="" type="DialUp"/>
+                <item name="T-Mobile NL" value="" type="DialUp"/>
+                <item name="T-Mobile HR" value="" type="DialUp"/>
+                <item name="T-Mobile H" value="" type="DialUp"/>
+                <item name="T-Mobile Telering" value="" type="DialUp"/>
+                <item name="T-Mobile SK" value="" type="DialUp"/>
+            </ProfileList>
+        </module>
+        <module name="T-Mobile_C55_D" device="E220">
+            <ProfileList>
+                <item name="T-Mobile UK" value="" type="DialUp"/>
+                <item name="T-Mobile D" value="default" type="DialUp"/>
+                <item name="T-Mobile A" value="" type="DialUp"/>
+                <item name="T-Mobile CZ" value="" type="DialUp"/>
+                <item name="T-Mobile NL" value="" type="DialUp"/>
+                <item name="T-Mobile HR" value="" type="DialUp"/>
+                <item name="T-Mobile H" value="" type="DialUp"/>
+                <item name="T-Mobile Telering" value="" type="DialUp"/>
+                <item name="T-Mobile SK" value="" type="DialUp"/>
+            </ProfileList>
+        </module>
+        <module name="T-Mobile_C55_A" device="E220">
+            <ProfileList>
+                <item name="T-Mobile UK" value="" type="DialUp"/>
+                <item name="T-Mobile D" value="" type="DialUp"/>
+                <item name="T-Mobile A" value="default" type="DialUp"/>
+                <item name="T-Mobile CZ" value="" type="DialUp"/>
+                <item name="T-Mobile NL" value="" type="DialUp"/>
+                <item name="T-Mobile HR" value="" type="DialUp"/>
+                <item name="T-Mobile H" value="" type="DialUp"/>
+                <item name="T-Mobile Telering" value="" type="DialUp"/>
+                <item name="T-Mobile SK" value="" type="DialUp"/>
+            </ProfileList>
+        </module>
+        <module name="T-Mobile_C55_CZ" device="E220">
+            <ProfileList>
+                <item name="T-Mobile UK" value="" type="DialUp"/>
+                <item name="T-Mobile D" value="" type="DialUp"/>
+                <item name="T-Mobile A" value="" type="DialUp"/>
+                <item name="T-Mobile CZ" value="default" type="DialUp"/>
+                <item name="T-Mobile NL" value="" type="DialUp"/>
+                <item name="T-Mobile HR" value="" type="DialUp"/>
+                <item name="T-Mobile H" value="" type="DialUp"/>
+                <item name="T-Mobile Telering" value="" type="DialUp"/>
+                <item name="T-Mobile SK" value="" type="DialUp"/>
+            </ProfileList>
+        </module>
+        <module name="T-Mobile_C55_NL" device="E220">
+            <ProfileList>
+                <item name="T-Mobile UK" value="" type="DialUp"/>
+                <item name="T-Mobile D" value="" type="DialUp"/>
+                <item name="T-Mobile A" value="" type="DialUp"/>
+                <item name="T-Mobile CZ" value="" type="DialUp"/>
+                <item name="T-Mobile NL" value="default" type="DialUp"/>
+                <item name="T-Mobile HR" value="" type="DialUp"/>
+                <item name="T-Mobile H" value="" type="DialUp"/>
+                <item name="T-Mobile Telering" value="" type="DialUp"/>
+                <item name="T-Mobile SK" value="" type="DialUp"/>
+            </ProfileList>
+        </module>
+        <module name="T-Mobile_C55_HR" device="E220">
+            <ProfileList>
+                <item name="T-Mobile UK" value="" type="DialUp"/>
+                <item name="T-Mobile D" value="" type="DialUp"/>
+                <item name="T-Mobile A" value="" type="DialUp"/>
+                <item name="T-Mobile CZ" value="" type="DialUp"/>
+                <item name="T-Mobile NL" value="" type="DialUp"/>
+                <item name="T-Mobile HR" value="default" type="DialUp"/>
+                <item name="T-Mobile H" value="" type="DialUp"/>
+                <item name="T-Mobile Telering" value="" type="DialUp"/>
+                <item name="T-Mobile SK" value="" type="DialUp"/>
+            </ProfileList>
+        </module>
+        <module name="T-Mobile_C55_HU" device="E220">
+            <ProfileList>
+                <item name="T-Mobile UK" value="" type="DialUp"/>
+                <item name="T-Mobile D" value="" type="DialUp"/>
+                <item name="T-Mobile A" value="" type="DialUp"/>
+                <item name="T-Mobile CZ" value="" type="DialUp"/>
+                <item name="T-Mobile NL" value="" type="DialUp"/>
+                <item name="T-Mobile HR" value="" type="DialUp"/>
+                <item name="T-Mobile H" value="default" type="DialUp"/>
+                <item name="T-Mobile Telering" value="" type="DialUp"/>
+                <item name="T-Mobile SK" value="" type="DialUp"/>
+            </ProfileList>
+        </module>
+        <module name="T-Mobile_C55_T" device="E220">
+            <ProfileList>
+                <item name="T-Mobile UK" value="" type="DialUp"/>
+                <item name="T-Mobile D" value="" type="DialUp"/>
+                <item name="T-Mobile A" value="" type="DialUp"/>
+                <item name="T-Mobile CZ" value="" type="DialUp"/>
+                <item name="T-Mobile NL" value="" type="DialUp"/>
+                <item name="T-Mobile HR" value="" type="DialUp"/>
+                <item name="T-Mobile H" value="" type="DialUp"/>
+                <item name="T-Mobile Telering" value="default" type="DialUp"/>
+                <item name="T-Mobile SK" value="" type="DialUp"/>
+            </ProfileList>
+        </module>
+        <module name="T-Mobile_C55_SK" device="E220">
+            <ProfileList>
+                <item name="T-Mobile UK" value="" type="DialUp"/>
+                <item name="T-Mobile D" value="" type="DialUp"/>
+                <item name="T-Mobile A" value="" type="DialUp"/>
+                <item name="T-Mobile CZ" value="" type="DialUp"/>
+                <item name="T-Mobile NL" value="" type="DialUp"/>
+                <item name="T-Mobile HR" value="" type="DialUp"/>
+                <item name="T-Mobile H" value="" type="DialUp"/>
+                <item name="T-Mobile Telering" value="" type="DialUp"/>
+                <item name="T-Mobile SK" value="default" type="DialUp"/>
+            </ProfileList>
+        </module>
+        <module name="Tanzania Vodacom_C73" device="E220">
+            <ProfileList>
+                <item name="Vodacom" value="default" type="DialUp"/>
+            </ProfileList>
+        </module>
+        <module name="Singapore SingTel_C88" device="E220">
+            <ProfileList>
+                <item name="Singapore SingTel internet" value="default" type="DialUp"/>
+            </ProfileList>
+        </module>
+        <module name="Hungary Pannon_C77" device="E220">
+            <ProfileList>
+                <item name="Hungary Pannon Internet" value="default" type="DialUp"/>
+            </ProfileList>
+        </module>
+        <module name="Italy_WIND_C51" device="E220">
+            <ProfileList>
+                <item name="Italy WIND" value="default" type="DialUp"/>
+                <item name="Italy WIND Aziende" value="" type="DialUp"/>
+            </ProfileList>
+        </module>
+
+
+        <单个的名称定制>
+		
+        <module name="CMCC" describe="中国移动">
+        </module>
+        <module name="Arabia" describe="Arabia customize">
+        </module>
+        
+
+        <module name="Slovenia Mobitel_87" device="E220">
+            <ProfileList>
+                <item name="Slovenia Mobitel UMTS/HSDPA" value="default" type="DialUp"/>
+            </ProfileList>
+        </module>
+        <module name="Croatia Tele2_C90" device="E220">
+            <ProfileList>
+                <item name="Croatia Tele2" value="default" type="DialUp"/>
+            </ProfileList>
+        </module>
+        <module name="Congo Vodacom_C89" device="E220">
+            <ProfileList>
+                <item name="Congo Vodacom DRC" value="default" type="DialUp"/>
+            </ProfileList>
+        </module>
+        <module name="Ireland Vodafone_C34" device="E220">
+            <ProfileList>
+                <item name="VF_IE" value="default" type="DialUp"/>
+            </ProfileList>
+        </module>
+        <module name="T-Mobile_C78" device="E220">
+            <ProfileList>
+                <item name="T-Mobile H" value="default" type="DialUp"/>
+            </ProfileList>
+        </module>
+        <module name="Sweden Tele2_C56" device="E220">
+            <ProfileList>
+                <item name="Sweden Tele 3G" value="default" type="DialUp"/>
+            </ProfileList>
+        </module>
+        <module name="TaiWan TWM_C50" device="E220">
+            <ProfileList>
+                <item name="TaiWan TWM" value="default" type="DialUp"/>
+            </ProfileList>
+        </module>
+        <module name="ChunghwaTelecom_C68" device="E220">
+            <ProfileList>
+                <item name="Chunghwa Telecom" value="default" type="DialUp"/>
+            </ProfileList>
+        </module>
+        <module name="Slovak Orange_85" device="E220">
+            <ProfileList>
+                <item name="Slovak Orange" value="default" type="DialUp"/>
+            </ProfileList>
+        </module>
+        <module name="FET_C72" device="E220">
+            <ProfileList>
+                <item name="FET" value="default" type="DialUp"/>
+            </ProfileList>
+        </module>
+        <module name="EPLUS_C52" device="E220">
+            <ProfileList>
+                <item name="EPLUS" value="default" type="DialUp"/>
+            </ProfileList>
+        </module>
+        <module name="Optus_C74" device="E220">
+            <ProfileList>
+                <item name="Optus" value="default" type="DialUp"/>
+            </ProfileList>
+        </module>
+        <module name="Austria One_C75" device="E220">
+            <ProfileList>
+                <item name="Austria One fullspeed" value="default" type="DialUp"/>
+                <item name="Austria one gprs web" value="" type="DialUp"/>
+            </ProfileList>
+        </module>
+        <module name="Netherlands KPN_C16" device="E220">
+            <ProfileList>
+                <item name="Netherlands KPN Internet Everywhere" value="default" type="DialUp"/>
+            </ProfileList>
+        </module>
+        <module name="Portugal TMN_C84" device="E220">
+            <ProfileList>
+                <item name="Portugal TMN" value="default" type="DialUp"/>
+            </ProfileList>
+        </module>
+        <module name="H3G_C22" device="E220">
+            <ProfileList>
+                <item name="Drei AT" value="default" type="DialUp"/>
+            </ProfileList>
+        </module>
+        <module name="Spain Vodafone_C33" device="E220">
+            <ProfileList>
+                <item name="Vodafone Connect Box" value="default" type="DialUp"/>
+            </ProfileList>
+        </module>
+        
+        <module name="Sweden Hi3G_C24" device="E270">
+            <Function>
+                <item name="IMSIAPN" value="true"/>
+            </Function>
+            <ProfileList>
+                <item name="3 Sweden" value="default" type="DialUp"/>
+                <item name="3 Denmark" value="" type="DialUp"/>
+            </ProfileList>
+            <IMSIProfileList imsi="24002">
+                <item name="3 Sweden" value="default" type="DialUp"/>
+                <item name="3 Denmark" value="" type="DialUp"/>
+            </IMSIProfileList>
+            <IMSIProfileList imsi="23806">
+                <item name="3 Sweden" value="" type="DialUp"/>
+                <item name="3 Denmark" value="default" type="DialUp"/>
+            </IMSIProfileList>
+            <IMSIProfileList imsi="46009">
+                <item name="3 Sweden" value="default" type="DialUp"/>
+                <item name="3 Denmark" value="" type="DialUp"/>
+            </IMSIProfileList>
+            <IMSIProfileList imsi="46000">
+                <item name="3 Sweden" value="" type="DialUp"/>
+                <item name="3 Denmark" value="default" type="DialUp"/>
+            </IMSIProfileList>
+        </module>
+        <module name="Netcom_C01" device="E220">
+            <ProfileList>
+                <item name="Netcom" value="default" type="DialUp"/>
+            </ProfileList>
+        </module>
+        <module name="Orange_C85" device="E220">
+            <ProfileList>
+                <item name="Orange internet" value="default" type="DialUp"/>
+            </ProfileList>
+        </module>
+        <module name="SingTel_C88" device="E620">
+            <ProfileList>
+                <item name="SingTel" value="default" type="DialUp"/>
+            </ProfileList>
+        </module>
+        <module name="blueconnect_C49" device="E620">
+            <ProfileList>
+                <item name="blueconnect" value="default" type="DialUp"/>
+            </ProfileList>
+        </module>
+        <module name="Denmark TDC_C104" device="E620">
+            <ProfileList>
+                <item name="TDC Mobil" value="default" type="DialUp"/>
+            </ProfileList>
+        </module>
+        <module name="Morocco_C04" device="E620">
+            <ProfileList>
+                <item name="Internet Méditel" value="default" type="DialUp"/>
+            </ProfileList>
+        </module>
+        <module name="Vodacom_C73" device="E620">
+            <ProfileList>
+                <item name="Vodacom" value="default" type="DialUp"/>
+            </ProfileList>
+        </module>
+        <module name="HK和记电信_C" device="E620">
+            <ProfileList>
+                <item name="3" value="default" type="DialUp"/>
+            </ProfileList>
+        </module>
+        <module name="Pannon_C77" device="E620">
+            <ProfileList>
+                <item name="Pannon Internet" value="default" type="DialUp"/>
+            </ProfileList>
+        </module>
+        <module name="STC_C76" device="E620">
+            <ProfileList>
+                <item name="ALJAWAL TV" value="" type="DialUp"/>
+                <item name="JAWALNet" value="default" type="DialUp"/>
+            </ProfileList>
+        </module>
+        <module name="Greece COSMOTE_C61" device="E620">
+            <ProfileList>
+                <item name="3G COSMOTE" value="default" type="DialUp"/>
+            </ProfileList>
+        </module>
+        <module name="Ireland H3G_C25" device="E620">
+            <ProfileList>
+                <item name="3 HSDPA" value="default" type="DialUp"/>
+            </ProfileList>
+        </module>
+        <module name="Mobily_C82" device="E620/E800/E960">
+            <ProfileList>
+                <item name="Mobily Prepaid Plan" value="default" type="DialUp"/>
+                <item name="Mobily Postpaid Plan" value="" type="DialUp"/>
+            </ProfileList>
+        </module>
+        <module name="eMobile_C109" type="WCDMA">
+            <ProfileTemplate>
+                <item name="phonenumber" value="*99***1#" type="DialUp"/>
+            </ProfileTemplate>
+            <ProfileList>
+                <item name="emb.ne.jp" value="default" type="DialUp"/>
+            </ProfileList>
+            <Function>
+                <item name="WLAN" value="false"/>
+                <item name="IMPORT" value="false"/>
+                <item name="eMobile_C109" value="true"/>
+            </Function>
+        </module>
+        <module name="MOVICEL_C120" type="CDMA">
+            <ProfileTemplate>
+                <item name="phonenumber" value="#777" type="DialUp"/>
+                <item name="user" value="" type="DialUp"/>
+                <item name="password" value="" type="DialUp"/>
+            </ProfileTemplate>
+            <ProfileList>
+                <item name="MOVICEL" value="default" type="DialUp"/>
+            </ProfileList>
+            <Function>
+                <item name="WLAN" value="false"/>
+                <item name="Auto Get Profile" value="true"/>
+            </Function>
+        </module>
+                <module name="BDC_C242" type="CDMA">
+            <ProfileTemplate>
+                <item name="phonenumber" value="#777" type="DialUp"/>
+                <item name="user" value="" type="DialUp"/>
+                <item name="password" value="" type="DialUp"/>
+            </ProfileTemplate>
+            <ProfileList>
+                <item name="Bermuda Digital Communications" value="default" type="DialUp"/>
+            </ProfileList>
+            <Function>
+                <item name="WLAN" value="false"/>
+                <item name="Auto Get Profile" value="true"/>
+            </Function>
+        </module>
+        <module name="Iusacell_C169" type="CDMA">
+            <ProfileTemplate>
+                <item name="phonenumber" value="#777" type="DialUp"/>
+                <item name="user" value="" type="DialUp"/>
+                <item name="password" value="" type="DialUp"/>
+            </ProfileTemplate>
+            <ProfileList>
+                <item name="Iusacell" value="default" type="DialUp"/>
+            </ProfileList>
+            <Function>
+                <item name="WLAN" value="false"/>
+                <item name="Auto Get Profile" value="true"/>
+            </Function>
+        </module>
+        <module name="Tele.ring_C123" type="WCDMA">
+            <ProfileList>
+                <item name="tele.ring Mobile Internet" value="default" type="DialUp"/>
+            </ProfileList>
+            <Function>
+                <item name="WLAN" value="false"/>
+                <item name="IMSIROAM" value="true"/>
+            </Function>
+        </module>
+        <module name="Movistar_C153" type="WCDMA">
+            <ProfileList>
+                <item name="Internet Movil" value="default" type="DialUp"/>
+            </ProfileList>
+            <Function>
+                <item name="WLAN" value="false"/>
+                <item name="IMSIROAM" value="false"/>
+            </Function>
+        </module>
+        <module name="Moviestar_C129" device="E220">
+            <ProfileList>
+                <item name="Internet GPRS" value="default" type="DialUp"/>
+                <item name="Internet" value="" type="DialUp"/>
+            </ProfileList>
+        </module>
+        <module name="CLARO_C150" type="WCDMA">
+            <ProfileTemplate>
+                <item name="name"         value="IDS_NEWPROFILE" type="DialUp"/>
+                <item name="type"         value="3G/GPRS"  type="DialUp"/>
+                <item name="readonly"     value="false"    type="DialUp"/>
+                <item name="user"         value=""         type="DialUp"/>
+                <item name="password"     value=""         type="DialUp"/>
+                <item name="phonenumber"  value="*99***1#" type="DialUp"/>
+                <item name="autoapn"      value="false"    type="DialUp"/>
+                <item name="apn"          value=""         type="DialUp"/>
+                <item name="chap"         value="true"     type="DialUp"/>
+                <item name="pap"          value="false"    type="DialUp"/>
+                <item name="ip"           value=""         type="DialUp"/>
+                <item name="dns"          value=""         type="DialUp"/>
+                <item name="dnsalt"       value=""         type="DialUp"/>
+                <item name="wins"         value=""         type="DialUp"/>
+                <item name="winsalt"      value=""         type="DialUp"/>
+            </ProfileTemplate>
+            <ProfileList>
+                <item name="CLARO" value="default" type="DialUp"/>
+            </ProfileList>
+            <Function>
+                <item name="WLAN" value="false"/>
+                <item name="IMSIROAM" value="false"/>
+            </Function>
+        </module>
+        <module name="TIM_C133" type="WCDMA">
+            <ProfileTemplate>
+                <item name="name"         value="IDS_NEWPROFILE" type="DialUp"/>
+                <item name="type"         value="3G/GPRS"  type="DialUp"/>
+                <item name="readonly"     value="false"    type="DialUp"/>
+                <item name="user"         value=""         type="DialUp"/>
+                <item name="password"     value=""         type="DialUp"/>
+                <item name="phonenumber"  value="*99***1#" type="DialUp"/>
+                <item name="autoapn"      value="false"    type="DialUp"/>
+                <item name="apn"          value=""         type="DialUp"/>
+                <item name="chap"         value="true"     type="DialUp"/>
+                <item name="pap"          value="false"    type="DialUp"/>
+                <item name="ip"           value=""         type="DialUp"/>
+                <item name="dns"          value=""         type="DialUp"/>
+                <item name="dnsalt"       value=""         type="DialUp"/>
+                <item name="wins"         value=""         type="DialUp"/>
+                <item name="winsalt"      value=""         type="DialUp"/>
+            </ProfileTemplate>
+            <ProfileList>
+                <item name="TIM CONNECT FAST" value="default" type="DialUp"/>
+            </ProfileList>
+        </module>
+        <module name="PTCL_C172" type="CDMA">
+            <ProfileList>
+                <item name="Broadband EvDO" value="default" type="DialUp"/>
+            </ProfileList>
+        </module>
+        <module name="KTF_C148" type="WCDMA">
+            <ProfileList>
+                <item name="KTFWing" value="default" type="DialUp"/>
+            </ProfileList>
+        </module>
+        <module name="TELIA_C44">
+            <ProfileList>
+                <item name="Telia" value="default" type="DialUp"/>
+            </ProfileList>
+        </module>
+        <module name="Cameroon_MTN_C225">
+            <ProfileList>
+                <item name="MTN Mobile Internet" value="default" type="DialUp"/>
+            </ProfileList>
+        </module>
+    -->
+    <module name="C666" device="">
+<ProfileList>
+<item name="Unite Internet Postpaid" value="default" type="DialUp"/>
+<item name="Unite Internet Prepaid" value="" type="DialUp"/>
+</ProfileList>
+</module>
+</group>
+
+    <item name="PromptPwd" value="false">
+        <item name="UserCheck" value="true">
+            <item name="CheckNamePwd" value="true"/>
+            <!-- to disable and enable the username and password field-->
+            <item name="DisableNamePwd" value="false"/>
+        </item>
+    </item>
+
+</utpsdoc>

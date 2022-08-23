@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<utpsdoc>
+    	<menu name="callui" parent="null">
+    		<item type="POPUP" resource="IDS_PDMENU_CALL" id="6211"></item>
+		<item type="POPUP" resource="IDS_PDMENU_VIDEO_CALL" id="6212"></item>
+    		<item type="POPUP" resource="IDS_SEPARATOR" id="-1"></item>
+    		<item type="POPUP" resource="IDS_PDMENU_DELETE" id="6213"></item>
+    		<item type="POPUP" resource="IDS_PDMENU_CLEAR" id="6214"></item>
+    	</menu>
+        <editmask>
+    		<item>1234567890+*#PpTtWw</item>
+	</editmask>
+	<CDMAForward>
+		<item resource="IDS_SETTING_CALL_FORWARD_IF_BUSY" activate="*90" deactivate="*900"></item>
+		<item resource="IDS_SETTING_CALL_FORWARD_IF_NOT_ANSWERED" activate="*92" deactivate="*920"></item>
+		<item resource="IDS_SETTING_CALL_FORWARD_IF_BUSY_OR_NOT_ANSWERED" activate="*68" deactivate="*680"></item>
+		<item resource="IDS_SETTING_CALL_FORWARD_ALLWAYS" activate="*72" deactivate="*720"></item>
+	</CDMAForward>
+	<CDMAWait>
+		<item resource="" activate="*74" deactivate="*740"></item>
+	</CDMAWait>
+	<!--KeyPressTone>
+        	<item key="0" tonefile="0.wav"/>
+        	<item key="1" tonefile="1.wav"/>
+        	<item key="2" tonefile="2.wav"/>
+        	<item key="3" tonefile="3.wav"/>
+        	<item key="4" tonefile="4.wav"/>
+        	<item key="5" tonefile="5.wav"/>
+        	<item key="6" tonefile="6.wav"/>
+        	<item key="7" tonefile="7.wav"/>
+        	<item key="8" tonefile="8.wav"/>
+        	<item key="9" tonefile="9.wav"/>
+        	<item key="clear" tonefile="clear.wav"/>
+        	<item key="hash" tonefile="hash.wav"/>
+        	<item key="plus" tonefile="plus.wav"/>
+        	<item key="star" tonefile="star.wav"/>
+        	<item key="makecall" tonefile="makecall.wav"/>
+        	<item key="endcall" tonefile="endcall.wav"/>
+    	</KeyPressTone-->
+</utpsdoc>
