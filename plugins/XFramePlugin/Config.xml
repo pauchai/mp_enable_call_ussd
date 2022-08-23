@@ -194,7 +194,7 @@
 		<item type="NORMAL" module="XFramePlugin"  icon="ussd" id="IDS_XFRAME_USSD_POSTPAID">43047</item>		
 		<item type="NORMAL" module="XFramePlugin"  icon="ussd" id="IDS_USSD_COMMON">43057</item-->    	
 		<!--DTS2012033000473 add by l81003609 20120330 start-->   	
-        <!--item type="NORMAL" module="XFramePlugin" icon="SMSUssd" icon2="SMSUssdDisable" id="IDS_XFRAME_SMSUSSD">43070</item-->
+        <item type="NORMAL" module="XFramePlugin" icon="SMSUssd" icon2="SMSUssdDisable" id="IDS_XFRAME_SMSUSSD">43070</item>
         <!--DTS2012033000473 add by l81003609 20120330 end-->
     </toolbar> 
    
